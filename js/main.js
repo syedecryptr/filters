@@ -107,9 +107,9 @@ function f2(){
 
 	var as = math.pow(10, -(ds/20));
 	var ap = math.pow(10, -(dp/20));
-	console.log(ap)
+	// console.log(ap)
 	var e = math.sqrt( (1/(math.pow(ap, 2))) - 1 )
-	console.log(e)
+	// console.log(e)
 	var n = math.acosh( math.sqrt( (1/(math.pow(as, 2)-1))/(1/(math.pow(ap, 2)-1) ) ) ) / math.acosh(ws/wp);
 	n = math.ceil(n)+1;
 
@@ -134,7 +134,7 @@ function f2(){
 		h.push(   1/(math.sqrt(1+ (math.pow(e*temp, 2) ) ))  );
 	}
 
-	window.alert(w);
+	// window.alert(w);
 	n2.innerHTML = "Order of the butterworth filter: " + n;
 	// w1.innerHTML = "Value of 3dB cut off frequency: " + wc;
 	var trace2 = {
