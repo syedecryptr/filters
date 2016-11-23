@@ -44,7 +44,7 @@ function f1(){
 	//N=log10(sqrt((1/As^2-1)/(1/Ap^2-1)));
 
 	var n = math.log10( math.sqrt( (1/(math.pow(as, 2)-1))/(1/(math.pow(ap, 2)-1) ) ) ) / math.log10(ws/wp);
-	window.alert(n);
+	// window.alert(n);
 	n = math.ceil(n);
 
 	//Wc=Wp/(1/Ap^2-1)^(1/(2*N));
